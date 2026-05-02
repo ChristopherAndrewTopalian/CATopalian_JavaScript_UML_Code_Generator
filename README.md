@@ -3,6 +3,8 @@ This JavaScript app creates UML Diagrams and Class Code together!
 
 ---
 
+Video: https://www.youtube.com/watch?v=uDBwKovuFDc
+
 ![001](src/media/textures/screenshots/001.png)
 
 ![002](src/media/textures/screenshots/002.png)
