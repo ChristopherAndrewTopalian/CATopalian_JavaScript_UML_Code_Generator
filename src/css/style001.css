@@ -1,0 +1,144 @@
+/* style001.css */
+
+body
+{
+    margin: 1px 5px;
+    background-color: rgb(0, 0, 0);
+    font-family: Arial;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+
+a:link
+{
+    color: rgb(170, 170, 170);
+}
+
+a:hover
+{
+    color: rgb(255, 255, 255);
+}
+
+a:visited
+{
+    color: rgb(170, 170, 170);
+}
+
+button
+{
+    background-color: rgb(0, 77, 129);
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(100, 100, 255);
+    border-radius: 4px;
+    padding: 2px 5px;
+    opacity: 1.0;
+    font-size: 12px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    /*width: 90%;*/
+    /*line-height: 12px;*/
+}
+
+button:hover
+{
+    background-color: rgb(6, 31, 47);
+    border-color: rgb(0, 255, 255);
+    color: rgb(0, 255, 255);
+}
+
+button:active
+{
+    color: rgb(255, 0, 255);
+}
+
+details
+{
+    border: solid 1px rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+}
+
+summary
+{
+    color: rgb(255, 255, 255);
+}
+
+summary:hover
+{
+    color: rgb(0, 255, 255);
+}
+
+details > summary
+{
+    list-style: none; /* remove default triangle */
+    cursor: pointer;
+}
+
+details > summary::before
+{
+    content: '▶️ '; /* closed icon */
+}
+
+details[open] > summary::before
+{
+    content: '🔽 '; /* open icon */
+    /*background-color: rgb(140,140,140);*/
+}
+
+/* Target any details tag that lives INSIDE another details tag */
+details details {
+    margin-left: 10px; /* Kicks the nested folder over to the right */
+}
+
+/* Target the buttons that live inside the nested folders */
+details details button {
+    margin-left: 10px; /* Kicks the "files" over a bit more so they don't sit flush with the folder name */
+}
+
+/* make the scrollbar thinner */
+::-webkit-scrollbar {
+  width: 8px; /* Adjust the thickness here */
+}
+
+/* style the scrollbar track (background of the scrollbar) */
+::-webkit-scrollbar-track {
+  background: #2c3e50; /* Darker background for contrast */
+}
+
+/* style the scrollbar thumb (the draggable part) */
+::-webkit-scrollbar-thumb {
+  background-color: #3498db; /* Bright blue */
+  border-radius: 4px; /* Rounded corners for a nice look */
+  border: 2px solid transparent; /* adds some space around thumb */
+}
+
+/* hover effect for thumb */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #2980b9; /* Slightly darker on hover */
+}
+
+.custom-code
+{
+    word-wrap: break-word;
+    width: 400px;
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/*----*/
+
+/* Dedicated to God the Father */
+/* All Rights Reserved Christopher Andrew Topalian Copyright 2000-2026 */
+/* https://github.com/ChristopherTopalian */
+/* https://github.com/ChristopherAndrewTopalian */
+/* https://sites.google.com/view/CollegeOfScripting */
+
