@@ -3,6 +3,8 @@ This JavaScript app creates UML Diagrams and Class Code together!
 
 ---
 
+Use App: https://christopherandrewtopalian.github.io/CATopalian_JavaScript_UML_Code_Generator/CATopalian_JavaScript_UML_Code_Generator.html
+
 Video: https://www.youtube.com/watch?v=uDBwKovuFDc
 
 ![001](src/media/textures/screenshots/001.png)
